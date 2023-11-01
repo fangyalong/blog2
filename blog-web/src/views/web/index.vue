@@ -92,7 +92,7 @@
             <div class="block">
               <el-carousel trigger="click" class="slideshow">
                 <el-carousel-item v-for="i in item" :key="item" >
-                  <img :src="i" alt="OSS Image" class="slideshowItem">
+                  <img :src="i.src" alt="OSS Image" class="slideshowItem">
                 </el-carousel-item>
               </el-carousel>
             </div>
@@ -120,7 +120,13 @@ export default {
         accessKeyId: 'LTAI5tP29WG81cA2y2cpqC8N',
         accessKeySecret: '5ccPyNnzcARSSXbPkUyjcgCuMEgwDl'
       }),
-      item: ["/static/img/num_1.5814b94e.png","/static/img/num_2.e7bf9a9c.png","/static/img/num_3.942a14bf.png","/static/img/num_4.efcb64bf.png","/static/img/num_5.e8f89003.png"],
+      item: [
+        {src: require('../../assets/images/num_1.png')},
+        {src: require('../../assets/images/num_2.png')},
+        {src: require('../../assets/images/num_3.png')},
+        {src: require('../../assets/images/num_4.png')},
+        {src: require('../../assets/images/num_5.png')}
+      ],
 
       searchFlag: false,
       menuFlag: false,
