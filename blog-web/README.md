@@ -2,7 +2,7 @@
  * @Author: fangyalong 1921934563@qq.com
  * @Date: 2023-10-28 10:21:28
  * @LastEditors: fangyalong 1921934563@qq.com
- * @LastEditTime: 2023-11-01 09:52:18
+ * @LastEditTime: 2023-11-01 15:56:49
  * @FilePath: \blog-web\README.md
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
@@ -36,3 +36,13 @@ npm run build:stage
 # 构建生产环境
 npm run build:prod
 ```
+
+
+### 添加功能的
+feat: 
+
+### 修改bug的
+fix:
+
+### 重构代码
+refactor：
